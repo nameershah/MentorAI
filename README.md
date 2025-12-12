@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 MentorAI - The Gemini 3 Powered Study Assistant
 
-# Run and deploy your AI Studio app
+> **Winner** of the "Vibe Code with Gemini 3" Hackathon (Target)
 
-This contains everything you need to run your app locally.
+MentorAI is a production-grade, multimodal AI study assistant designed to help students master complex topics. Powered by **Google Gemini 3 Pro**, it features real-time reasoning transparency, document analysis (RAG), and agentic study tools.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jX61pzQUuGnbiUBhk9DMI8kKxag1GrDz
+![MentorAI Banner](https://via.placeholder.com/1200x600/0f172a/3b82f6?text=MentorAI+Dashboard)
 
-## Run Locally
+## 🚀 Key Features
 
-**Prerequisites:**  Node.js
+### 1. ⚡ Multimodal Chat with "Thinking" Visibility
+Unlike standard chatbots, MentorAI exposes Gemini 3 Pro's reasoning process.
+- **Deep Reasoning:** Click "View Reasoning" to see how the AI breaks down complex Math/Physics problems.
+- **Visual Learning:** Upload diagrams or lecture slides for instant analysis.
+- **Mermaid.js Integration:** Automatically converts explanations into visual flowcharts.
 
+### 2. 📚 Context-Aware RAG (Retrieval-Augmented Generation)
+Upload your PDFs, notes, or audio lectures.
+- **Pin Documents:** Focus the AI's attention on specific files.
+- **Audio Analysis:** Upload a lecture recording (.mp3) and ask questions about it.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 3. 🛠️ AI Power Tools
+- **Code Analyzer:** Paste code to get bug reports, optimization tips, and complexity analysis.
+- **Flashcard Generator:** Generates 3D spaced-repetition cards in seconds (powered by Gemini Flash).
+- **Gamified Quiz Agent:** Adaptive quizzes with sound effects and confetti celebrations.
+
+### 4. 📊 Smart Dashboard
+- **Mastery Prediction:** AI analyzes your study habits to predict when you will master a topic.
+- **Study Streak & Stats:** Visualized using Recharts.
+
+## 🏗️ Architecture
+
+- **Frontend:** React 18, TypeScript, Tailwind CSS
+- **AI Core:** Google GenAI SDK (`@google/genai`)
+  - `gemini-3-pro-preview`: Complex reasoning, Chat, Code Analysis.
+  - `gemini-2.5-flash`: High-speed JSON generation (Flashcards, Quizzes).
+- **State:** React Context + LocalStorage (Offline resilient).
+- **Visuals:** Framer Motion (animations), Recharts (data), Lucide (icons).
+
+## 🛠️ Setup & Run
+
+1. **Clone the repo**
+   ```bash
+   git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
+   cd MentorAI
+Install dependenciesBashnpm install
+Set up API KeyCreate a .env file:Code snippetVITE_GEMINI_API_KEY=your_api_key_here
+Run Development ServerBashnpm run dev
+🧪 Testing the AITry these prompts to see Gemini 3 Pro shine:Math: "Solve this integral: $\int x^2 \sin(x) dx$" (Watch the LaTeX render)Visuals: "Explain how a CPU works with a diagram" (Watch the Mermaid chart appear)Reasoning: "If I have a 3L jug and a 5L jug, how do I measure exactly 4L?" (Open the <thinking> tab)
