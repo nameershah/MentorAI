@@ -1,12 +1,11 @@
 # 🧠 MentorAI
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)
-![Gemini](https://img.shields.io/badge/Powered%20By-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Gemini](https://img.shields.io/badge/Powered%20By-Gemini%203%20Pro-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-> **The Elite AI Study Assistant.**  
+> **The Elite AI Study Assistant.**
 > *Transforming static study materials into interactive, gamified mastery paths using Google's Gemini 3 Pro.*
 
 ---
@@ -16,6 +15,8 @@
 **MentorAI** is a production-grade educational platform designed to bridge the gap between passive reading and active recall. Built on the bleeding edge of the **Google GenAI SDK**, it leverages **Gemini 3 Pro** for deep reasoning and **Gemini 2.5 Flash** for high-speed tool generation.
 
 Whether you are solving complex calculus problems, debugging code, or memorizing medical terminology, MentorAI provides a multimodal, voice-enabled, and context-aware environment to master any subject.
+
+---
 
 ## ✨ Key Features
 
@@ -35,20 +36,6 @@ Whether you are solving complex calculus problems, debugging code, or memorizing
 *   **Mastery Prediction:** AI analyzes your message velocity and quiz scores to predict when you will master a topic.
 *   **Glassmorphism UI:** A modern, responsive interface with smooth transitions and Dark Mode support.
 *   **Global Shortcuts:** `Ctrl+K` to focus chat, `Ctrl+B` to toggle sidebar.
-
----
-
-## 📸 Screenshots
-
-| **Smart Dashboard** | **Multimodal Chat** |
-|:---:|:---:|
-| <img src="screenshots/dashboard.png" alt="Dashboard" width="400"/> | <img src="screenshots/chat.png" alt="Chat Interface" width="400"/> |
-| *AI-predicted mastery & activity tracking* | *Deep reasoning traces & document context* |
-
-| **3D Flashcards** | **Code Analyzer** |
-|:---:|:---:|
-| <img src="screenshots/flashcards.png" alt="Flashcards" width="400"/> | <img src="screenshots/tools.png" alt="Code Tool" width="400"/> |
-| *Gamified study sessions with flip animations* | *Deep debugging, optimization & rating* |
 
 ---
 
@@ -73,7 +60,7 @@ Whether you are solving complex calculus problems, debugging code, or memorizing
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/mentor-ai.git
+    git clone https://github.com/nameershah/mentor-ai.git
     cd mentor-ai
     ```
 
@@ -112,8 +99,8 @@ Whether you are solving complex calculus problems, debugging code, or memorizing
 
 **Muhammad Nameer Shah**
 
-*   **LinkedIn:** [www.linkedin.com/in/muhammad-nameer-shah](https://www.linkedin.com/in/muhammad-nameer-shah)
-*   **GitHub:** [@nameer111](https://github.com/nameer111)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nameershah)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-nameer-shah)
 
 ---
 
