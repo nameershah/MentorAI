@@ -1,6 +1,13 @@
+````markdown
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" style="border-radius: 10px;" />
+</div>
+
+<br />
+
 <div align="center">
 
-# 🧠 MentorAI  
+# 🧠 MentorAI
 **The Gemini 3 Powered Study Assistant**
 
 > 🏆 **Winner** — Google AI Studio *Vibe Code with Gemini 3* Hackathon (Target Track)
@@ -21,9 +28,9 @@
 
 </div>
 
----
+<br />
 
-**MentorAI** is not just another chatbot—it's a production-grade, multimodal AI study assistant that shows students *how* AI thinks.  
+**MentorAI** is not just another chatbot—it's a production-grade, multimodal AI study assistant that shows students *how* AI thinks.
 Built with **Google Gemini 3 Pro**, it exposes reasoning through transparent `<thinking>` tags, supports multimodal RAG, document pinning, and a hybrid architecture for incredible performance.
 
 ---
@@ -43,66 +50,50 @@ Built with **Google Gemini 3 Pro**, it exposes reasoning through transparent `<t
 
 ## 📸 Visual Tour
 
-<table>
-<tr>
-<td width="50%">
-
-### 🌙 Dark Mode Interface
-![MentorAI Dark Mode](assets/dark.png)
-
-*Glassmorphism UI with multimodal chat capabilities*
-
-</td>
-<td width="50%">
-
-### ☀️ Light Mode Interface
-![MentorAI Light Mode](assets/light.png)
-
-*Clean, comfortable interface for daytime studying*
-
-</td>
-</tr>
-</table>
+| **Smart Dashboard** | **Multimodal Chat** |
+|:---:|:---:|
+| <img src="screenshots/dashboard.png" alt="Dashboard" width="100%"> | <img src="screenshots/chat.png" alt="Chat Interface" width="100%"> |
+| *Glassmorphism UI with real-time analytics* | *Transparent reasoning & multimodal inputs* |
 
 ---
 
 ## ✨ Key Features
 
 ### 🔍 **Transparent Reasoning Engine**
-MentorAI exposes **Gemini 3 Pro’s** internal monologue using interactive `<thinking>` tags.  
+MentorAI exposes **Gemini 3 Pro’s** internal monologue using interactive `<thinking>` tags.
 You learn *how* the AI solves a problem, not just the answer.
 
 ### 📚 **Multimodal RAG + Context Pinning**
-- Upload PDFs, images, audio
-- Pin documents for persistent context
-- Ask questions *about a specific source*
-- AI attends deeply to pinned material
+- Upload PDFs, images, audio.
+- Pin documents for persistent context.
+- Ask questions *about a specific source*.
+- AI attends deeply to pinned material.
 
 ### 🛠️ **Agentic Study Tools**
-- Flashcard Generator (Gemini Flash)
-- Adaptive Quiz Agent with animations
-- Code Analyzer: bugs • Big-O • refactors
-- Auto-rendered LaTeX + Mermaid.js diagrams
+- **Flashcard Generator** (Gemini Flash).
+- **Adaptive Quiz Agent** with animations.
+- **Code Analyzer:** bugs • Big-O • refactors.
+- Auto-rendered **LaTeX** + **Mermaid.js** diagrams.
 
 ---
 
 ## 🎯 The "Wow" Factor
 
 ### 🌐 **Hybrid Intelligence**
-- **Gemini 3 Pro** → deep reasoning  
-- **Gemini 2.5 Flash** → ultra-fast tools  
-- Seamless smart model routing
+- **Gemini 3 Pro** → deep reasoning.
+- **Gemini 2.5 Flash** → ultra-fast tools.
+- Seamless smart model routing.
 
 ### 🎨 **Glassmorphism UI**
-- Dark & light modes  
-- Framer Motion animations  
-- Token-streaming responses  
+- Dark & light modes.
+- Framer Motion animations.
+- Token-streaming responses.
 
 ### 🧠 **True Multimodal Learning**
-- Image → explanation  
-- Audio → transcript + Q&A  
-- PDF → RAG-powered study  
-- Math → LaTeX rendering  
+- Image → explanation.
+- Audio → transcript + Q&A.
+- PDF → RAG-powered study.
+- Math → LaTeX rendering.
 
 ---
 
@@ -140,52 +131,102 @@ graph TB
 
     B --> K[Mermaid.js]
     B --> L[LaTeX Renderer]
-🛠️ Installation & Setup
-bash
-Copy code
-git clone https://github.com/nameershah/MentorAI.git
+````
+
+-----
+
+## 🛠️ Installation & Setup
+
+**1. Clone the Repository**
+
+```bash
+git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
 cd MentorAI
+```
+
+**2. Install Dependencies**
+
+```bash
 npm install
-echo "VITE_GEMINI_API_KEY=your_api_key_here" > .env
+```
+
+**3. Set Environment Variables**
+Create a `.env` file in the root directory:
+
+```bash
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+**4. Run Development Server**
+
+```bash
 npm run dev
-💡 Usage Examples
-🧮 Math (LaTeX)
-scss
-Copy code
+```
+
+-----
+
+## 💡 Usage Examples
+
+**🧮 Math (LaTeX)**
+
+```text
 Solve ∫ x² sin(x) dx
-🖼️ Visual Explanation
-Upload an image → ask for breakdown.
+```
 
-📄 RAG from PDFs
-Upload lecture → “Create a quiz from this PDF”.
+**🖼️ Visual Explanation**
 
-🎧 Audio
-Upload MP3 → “Summarize the section on CNNs”.
+> Upload an image → ask for breakdown.
 
-🏆 Hackathon Achievement
-Winner — Google AI Studio: Vibe Code with Gemini 3
+**📄 RAG from PDFs**
+
+> Upload lecture notes → “Create a quiz from this PDF”.
+
+**🎧 Audio**
+
+> Upload MP3 → “Summarize the section on CNNs”.
+
+-----
+
+## 🏆 Hackathon Achievement
+
+**Winner — Google AI Studio: Vibe Code with Gemini 3**
 Recognized for:
 
-Transparent reasoning UI
+  * ✅ Transparent reasoning UI
+  * ✅ Hybrid routing architecture
+  * ✅ Production-quality design
+  * ✅ Real educational impact
 
-Hybrid routing architecture
+-----
 
-Production-quality design
+## 🚀 Roadmap
 
-Real educational impact
+  - [ ] Mobile apps
+  - [ ] Collaboration mode
+  - [ ] Learning analytics
+  - [ ] LMS integrations
+  - [ ] Offline RAG
 
-🚀 Roadmap
- Mobile apps
+-----
 
- Collaboration mode
+## 📄 License
 
- Learning analytics
+Distributed under the **MIT License**.
 
- LMS integrations
+\<br /\>
 
- Offline RAG
+\<div align="center"\>
+\<strong\>Engineered with ❤️ by Muhammad Nameer Shah\</strong\>
+\<br /\>\<br /\>
+\<a href="https://github.com/nameershah"\>
+\<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge\&logo=github\&logoColor=white" /\>
+\</a\>
+\<a href="https://www.linkedin.com/in/muhammad-nameer-shah"\>
+\<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white" /\>
+\</a\>
+\<br /\>\<br /\>
+\<strong\>Built for learners. Powered by Google Gemini 3 Pro.\</strong\>
+\</div\>
 
-📄 License
-Distributed under MIT License.
-
-<div align="center"> <strong>Engineered with ❤️ by Muhammad Nameer Shah</strong><br /><br /> <a href="https://github.com/nameershah"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/muhammad-nameer-shah"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <br /><br /> <strong>Built for learners. Powered by Google Gemini 3 Pro.</strong> </div> ```
+```
+```
