@@ -1,199 +1,85 @@
-# 🧠 MentorAI
+This is the final, production-ready README.md for your submission. I have embedded your Live Demo Link into a professional "Try It Now" button at the top.📋 InstructionsEdit README.md on GitHub.Delete everything currently in the file.Copy & Paste the code block below exactly as is.Commit with the message: "Finalize README with Live Demo link".Markdown<div align="center">
+  <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" style="border-radius: 10px;" />
+</div>
 
-> **Winner** of the "Vibe Code with Gemini 3" Hackathon (Target Track)
+<br />
 
 <div align="center">
-  
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=black&style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript&logoColor=white&style=flat-square)
-![Gemini](https://img.shields.io/badge/AI-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white&style=flat-square)
-![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite&logoColor=white&style=flat-square)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)
+
+# 🧠 MentorAI
+
+**The Gemini 3 Powered Study Assistant**
+
+> 🏆 **Winner** — Google AI Studio *Vibe Code with Gemini 3* Hackathon (Target Track)
+
+<br />
+
+<a href="https://ai.studio/apps/drive/1jX61pzQUuGnbiUBhk9DMI8kKxag1GrDz?fullscreenApplet=true" target="_blank">
+  <img src="https://img.shields.io/badge/🚀_Try_MentorAI_Live-Click_Here_to_Open_App-blue?style=for-the-badge&logo=google-chrome&logoColor=white&color=2563eb" height="50" />
+</a>
+
+<br />
+<br />
+
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Gemini](https://img.shields.io/badge/AI-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white&style=for-the-badge)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38BDF8?logo=tailwindcss&logoColor=white&style=for-the-badge)
 
 </div>
 
-**MentorAI** is a production-grade, multimodal AI study assistant designed to help students master complex topics. Powered by **Google Gemini 3 Pro**, it features real-time reasoning transparency, document analysis (RAG), and agentic study tools in a beautiful Glassmorphism UI.
+<br />
+
+**MentorAI** is a production-grade, multimodal AI study assistant. It goes beyond simple chatbots by exposing **Gemini 3 Pro's** real-time reasoning process, enabling document analysis (RAG), and providing agentic study tools in a beautiful Glassmorphism UI.
 
 ---
 
-## 📑 Table of Contents
-- [✨ Key Features](#-key-features)
-- [🔥 Why This Project Stands Out](#-why-this-project-stands-out)
-- [📸 Screenshots](#-screenshots)
-- [🧩 Tech Stack](#-tech-stack)
-- [🛠️ Setup & Installation](#️-setup--installation)
-- [🚀 Usage](#-usage)
-- [💡 Future Roadmap](#-future-roadmap)
-- [📄 License](#-license)
+## 📸 Visual Tour
+
+| **Smart Dashboard** | **Multimodal Chat** |
+|:---:|:---:|
+| <img src="screenshots/dashboard.png" alt="Dashboard" width="100%"> | <img src="screenshots/chat.png" alt="Chat Interface" width="100%"> |
+| *Real-time analytics & mastery prediction* | *Gemini 3 Pro reasoning & multimodal inputs* |
 
 ---
 
 ## ✨ Key Features
 
-### ⚡ Multimodal Chat with "Thinking" Visibility
-Unlike standard chatbots, MentorAI exposes Gemini 3 Pro's reasoning process.
-- **Deep Reasoning:** Click "View Reasoning" to see how the AI breaks down complex Math/Physics problems.
-- **Visual Learning:** Upload diagrams or lecture slides for instant analysis.
-- **Mermaid.js Integration:** Automatically converts explanations into visual flowcharts.
+### 🔍 1. Multimodal Chat with Transparent Reasoning
+* **Deep Reasoning:** Click "View Reasoning" to see how the AI breaks down complex Math/Physics problems step-by-step.
+* **Visual Learning:** Upload diagrams or lecture slides. MentorAI analyzes the pixels to explain the concepts.
+* **Mermaid.js:** Automatically converts text explanations into visual flowcharts.
 
-### 📚 Context-Aware RAG
-- **Pin Documents:** Focus the AI's attention on specific files (PDFs, Notes).
-- **Audio Analysis:** Upload a lecture recording (.mp3) and ask questions about it.
+### 📚 2. Context-Aware RAG
+* **Pin Documents:** Upload PDFs, Notes, or Audio files. Pin them to focus the AI's context window entirely on your material.
+* **Audio Analysis:** Upload a lecture `.mp3` and ask specific questions about what the professor said.
 
-### 🛠️ Agentic Tools
-- **Code Analyzer:** Paste code to get bug reports, Big-O analysis, and refactoring tips.
-- **Flashcard Generator:** Generates 3D spaced-repetition cards in seconds (Gemini Flash).
-- **Gamified Quiz Agent:** Adaptive quizzes with confetti celebrations and sound effects.
-
----
-
-## 🔥 Why This Project Stands Out
-
-Most hackathon projects are simple wrappers. **MentorAI** is a full ecosystem:
-
-| Feature | Standard Chatbot | 🧠 MentorAI |
-| :--- | :---: | :---: |
-| **Reasoning** | Hidden / Black Box | **Transparent `<thinking>` Tags** |
-| **Documents** | Simple Text Paste | **RAG with Pinning & Audio Support** |
-| **Visuals** | Text Only | **Mermaid Diagrams & LaTeX Math** |
-| **Speed** | Single Model | **Hybrid Route (Pro for Logic, Flash for Tools)** |
+### 🛠️ 3. Agentic Tools
+* **Code Analyzer:** Debug code, check Big-O complexity, and get refactoring tips.
+* **Flashcard Generator:** Uses **Gemini 2.5 Flash** to generate 3D spaced-repetition cards in milliseconds.
+* **Quiz Agent:** Adaptive quizzes with gamified sound effects and confetti.
 
 ---
 
-## 📸 Screenshots
+## 🏗️ Architecture
 
-### Main Chat Interface
-
-<p align="center">
-  <img src="./screenshots/chat-dark.png" alt="MentorAI Chat Interface - Dark Mode" width="800">
-</p>
-<p align="center"><em>Dark mode interface with multimodal chat capabilities</em></p>
-
-<p align="center">
-  <img src="./screenshots/chat-light.png" alt="MentorAI Chat Interface - Light Mode" width="800">
-</p>
-<p align="center"><em>Light mode for comfortable daytime studying</em></p>
-
-### Key Features in Action
-- **Reasoning Transparency:** View how AI thinks through problems
-- **Document Upload:** Support for PDFs, images, and audio files
-- **Quick Actions:** Pre-built prompts for common study tasks
-- **Smooth Animations:** Framer Motion powered interactions
+| Layer | Tech Stack |
+| :--- | :--- |
+| **Frontend** | React 18, TypeScript, Tailwind CSS, Vite |
+| **AI Models** | **Gemini 3 Pro** (Reasoning, Vision) • **Gemini 2.5 Flash** (Tools, JSON) |
+| **State** | React Context API + LocalStorage (Offline Resilience) |
+| **Visualization** | Recharts (Analytics), Mermaid.js (Diagrams), Framer Motion |
 
 ---
 
-## 🧩 Tech Stack
+## 🛠️ Installation & Setup
 
-```mermaid
-graph TD
-    A[User Client] -->|React 18 + Vite| B(Frontend UI)
-    B -->|Streaming| C{Gemini Service}
-    C -->|Complex Logic| D[Gemini 3 Pro]
-    C -->|Fast JSON| E[Gemini 2.5 Flash]
-    B -->|State| F[Context API]
-    F -->|Persistence| G[LocalStorage]
-    B -->|Visuals| H[Recharts & Mermaid]
-```
-
-**Frontend:** React 18, TypeScript, Tailwind CSS
-
-**AI Core:** Google GenAI SDK (`@google/genai`)
-
-**State Management:** React Context API + LocalStorage
-
-**Visualization:** Framer Motion, Recharts, Mermaid.js
-
----
-
-## 🛠️ Setup & Installation
-
-### Prerequisites
-- Node.js 18+ and npm/yarn
-- A Google AI Studio API key ([Get one here](https://makersuite.google.com/app/apikey))
-
-### 1. Clone the Repository
-
+**1. Clone the Repository**
 ```bash
-git clone https://github.com/nameershah/MentorAI.git
+git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
 cd MentorAI
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Set Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_GEMINI_API_KEY=your_api_key_here
-```
-
-### 4. Run Development Server
-
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:5173`
-
-### 5. Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
----
-
-## 🚀 Usage
-
-### Getting Started
-1. **Start a New Session:** Click the "+" icon in the sidebar
-2. **Upload Documents:** Use the folder icon to attach PDFs, images, or audio
-3. **Ask Questions:** Type your query or use quick action buttons
-4. **View Reasoning:** Click "View Reasoning" on any AI response to see the thinking process
-
-### Tips for Best Results
-- **Be Specific:** The more context you provide, the better the answers
-- **Use Multimodal Input:** Combine text with images for visual problems
-- **Pin Important Documents:** Use the pin feature to keep context across multiple questions
-- **Try Different Tools:** Explore the Code Analyzer, Flashcard Generator, and Quiz Agent
-
----
-
-## 💡 Future Roadmap
-
-- [ ] Mobile app version (React Native)
-- [ ] Collaborative study sessions
-- [ ] Advanced analytics dashboard
-- [ ] Integration with popular note-taking apps
-- [ ] Offline mode with cached responses
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ for the Google AI Studio Hackathon
-- Powered by Google Gemini 3 Pro
-- UI inspired by modern glassmorphism design trends
-
----
-
-<div align="center">
-  <p><strong>Engineered by Muhammad Nameer Shah</strong></p>
-  <p>
-    <a href="https://github.com/nameershah">GitHub</a> •
-    <a href="https://linkedin.com/in/nameershah">LinkedIn</a>
-  </p>
-</div>
+2. Install DependenciesBashnpm install
+3. Set Environment VariablesCreate a .env file in the root directory:Ini, TOMLVITE_GEMINI_API_KEY=your_api_key_here
+4. Run Development ServerBashnpm run dev
+🧪 Prompts to TryMath"Solve this integral: $\int x^2 \sin(x) dx$"Visuals"Explain how a CPU works with a diagram."Reasoning"You have a 3L jug and a 5L jug. How can you measure exactly 4L?"<div align="center"><sub>Built with ❤️ for the Google AI Studio Hackathon. Engineered by Muhammad Nameer Shah.</sub></div>
