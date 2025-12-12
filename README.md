@@ -41,14 +41,16 @@ Upload your PDFs, notes, or audio lectures.
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/nameershah/MentorAI.git
+   git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
    cd MentorAI
 Install dependenciesBashnpm install
 Set up API KeyCreate a .env file:Code snippetVITE_GEMINI_API_KEY=your_api_key_here
 Run Development ServerBashnpm run dev
 🧪 Testing the AITry these prompts to see Gemini 3 Pro shine:Math: "Solve this integral: $\int x^2 \sin(x) dx$" (Watch the LaTeX render)Visuals: "Explain how a CPU works with a diagram" (Watch the Mermaid chart appear)Reasoning: "If I have a 3L jug and a 5L jug, how do I measure exactly 4L?" (Open the <thinking> tab)
-### 🚨 Final Reminder
-1.  **Paste** the block above into your `README.md`.
-2.  **Commit** the change.
-3.  **Change Repo Visibility** to **Public** in Settings (Danger Zone).
-4.  **Record your Video** immediately! You are ready.
+### 🏁 Final Steps
+1.  **Paste** the block above into your `README.md` file on GitHub.
+2.  **Commit** the changes.
+3.  **Go to Settings > Danger Zone** and change repository visibility to **Public**.
+4.  **Record your Video!**
+
+You are all set. Go get that win! 🚀
