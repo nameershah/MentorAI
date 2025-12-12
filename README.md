@@ -64,15 +64,16 @@ Most hackathon projects are simple wrappers. **MentorAI** is a full ecosystem:
 ## 📸 Screenshots
 
 ### Main Chat Interface
-<div align="center">
-  <img src="screenshots/chat-dark.png" alt="Chat Interface - Dark Mode" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
-  <p><em>Dark mode interface with multimodal chat capabilities</em></p>
-</div>
 
-<div align="center">
-  <img src="screenshots/chat-light.png" alt="Chat Interface - Light Mode" width="100%" style="border-radius: 10px;">
-  <p><em>Light mode for comfortable daytime studying</em></p>
-</div>
+<p align="center">
+  <img src="./screenshots/chat-dark.png" alt="MentorAI Chat Interface - Dark Mode" width="800">
+</p>
+<p align="center"><em>Dark mode interface with multimodal chat capabilities</em></p>
+
+<p align="center">
+  <img src="./screenshots/chat-light.png" alt="MentorAI Chat Interface - Light Mode" width="800">
+</p>
+<p align="center"><em>Light mode for comfortable daytime studying</em></p>
 
 ### Key Features in Action
 - **Reasoning Transparency:** View how AI thinks through problems
