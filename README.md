@@ -1,37 +1,40 @@
-# 🚀 MentorAI - Next-Gen AI Study Assistant
+# 🧠 MentorAI
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)
-![Gemini 3 Pro](https://img.shields.io/badge/Powered%20By-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css&logoColor=white)
+![Gemini](https://img.shields.io/badge/Powered%20By-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)
 
-> **"Vibe Code" Competition Entry** | Powered by Google AI Studio & Gemini 3 Pro
-
-**MentorAI** is an elite, production-grade educational platform designed to help students master any subject. By leveraging the multimodal capabilities, long context window, and reasoning power of **Gemini 3 Pro**, MentorAI transforms static study materials into interactive, gamified learning experiences.
+> **The Elite AI Study Assistant.**  
+> *Transforming static study materials into interactive, gamified mastery paths using Google's Gemini 3 Pro.*
 
 ---
 
-## 🌟 Key Features
+## 🚀 Overview
 
-### 🧠 Core Intelligence
-*   **Gemini 3 Pro Integration:** Utilizes the latest model for deep reasoning, step-by-step problem solving (`<thinking>` tags), and complex code analysis.
-*   **Multimodal RAG (Retrieval-Augmented Generation):** Upload PDFs, text files, images, or audio. The AI "pins" these documents to the context, allowing you to chat with your study materials.
-*   **Real-time Streaming:** Experience zero-latency responses with typewriter effects and voice synthesis.
+**MentorAI** is a production-grade educational platform designed to bridge the gap between passive reading and active recall. Built on the bleeding edge of the **Google GenAI SDK**, it leverages **Gemini 3 Pro** for deep reasoning and **Gemini 2.5 Flash** for high-speed tool generation.
 
-### 🛠️ Elite Study Tools
-*   **📸 Multimodal Vision Analysis:** Upload diagrams or handwritten notes directly in chat for instant analysis and OCR.
-*   **🎴 Smart Flashcards:** Auto-generates decks with spaced repetition algorithms and beautiful 3D flip animations.
-*   **🏆 Gamified Quiz Agent:** Adaptive difficulty quizzes (Easy/Medium/Hard) with confetti rewards and sound effects for correct answers.
-*   **💻 Code Analyzer:** Specialized tool for debugging, optimizing, and explaining code in any language.
-*   **📅 AI Study Planner:** Generates structured weekly schedules based on your goals and time availability.
-*   **🧮 Problem Solver:** Renders LaTeX math equations and Mermaid.js diagrams for visual learning.
+Whether you are solving complex calculus problems, debugging code, or memorizing medical terminology, MentorAI provides a multimodal, voice-enabled, and context-aware environment to master any subject.
 
-### 🎨 UX & Accessibility
-*   **Voice Mode:** Hands-free learning with Speech-to-Text and Text-to-Speech (Auto-read).
-*   **Glassmorphism UI:** A stunning, modern interface with dark/light mode toggle.
-*   **Analytics Dashboard:** Tracks learning velocity, streaks, and predicts mastery using AI.
-*   **Keyboard Shortcuts:** `Ctrl+K` to focus chat, `Ctrl+B` to toggle sidebar.
+## ✨ Key Features
+
+### 🤖 Core Intelligence
+*   **Gemini 3 Pro Integration:** Utilizes the latest model for deep reasoning (`<thinking>` traces visible in UI) and complex problem solving.
+*   **Multimodal RAG (Retrieval-Augmented Generation):** Upload **PDFs, Images, Audio, or Text**. Pin documents to the chat context to interrogate specific materials.
+*   **Voice Mode:** Full hands-free experience with Speech-to-Text and AI Text-to-Speech (Auto-read).
+
+### 🛠️ AI Power Tools
+*   **🎴 Smart Flashcards:** Auto-generates decks with spaced repetition metadata and stunning 3D flip animations.
+*   **🏆 Gamified Quiz Agent:** Adaptive difficulty quizzes with sound effects, confetti rewards, and detailed explanations.
+*   **💻 Code Analyzer:** A dedicated environment for debugging, optimizing, and rating code snippets.
+*   **📅 Study Planner:** Generates structured weekly schedules based on learning goals.
+*   **🧮 Logic Solver:** Solves math (LaTeX rendered) and logic problems step-by-step.
+
+### 📊 Analytics & UX
+*   **Mastery Prediction:** AI analyzes your message velocity and quiz scores to predict when you will master a topic.
+*   **Glassmorphism UI:** A modern, responsive interface with smooth transitions and Dark Mode support.
+*   **Global Shortcuts:** `Ctrl+K` to focus chat, `Ctrl+B` to toggle sidebar.
 
 ---
 
@@ -39,31 +42,28 @@
 
 | **Smart Dashboard** | **Multimodal Chat** |
 |:---:|:---:|
-| ![Dashboard](screenshots/dashboard.png) | ![Chat Interface](screenshots/chat.png) |
-| *AI-predicted mastery & progress tracking* | *Reasoning traces & document context* |
+| <img src="screenshots/dashboard.png" alt="Dashboard" width="400"/> | <img src="screenshots/chat.png" alt="Chat Interface" width="400"/> |
+| *AI-predicted mastery & activity tracking* | *Deep reasoning traces & document context* |
 
 | **3D Flashcards** | **Code Analyzer** |
 |:---:|:---:|
-| ![Flashcards](screenshots/flashcards.png) | ![Code Tool](screenshots/code-tool.png) |
-| *Gamified study sessions* | *Deep debugging & optimization* |
-
-> *Note: Please add your actual screenshots to a `screenshots/` folder in your repository.*
+| <img src="screenshots/flashcards.png" alt="Flashcards" width="400"/> | <img src="screenshots/tools.png" alt="Code Tool" width="400"/> |
+| *Gamified study sessions with flip animations* | *Deep debugging, optimization & rating* |
 
 ---
 
 ## 🏗️ Tech Stack
 
-*   **Frontend:** React 19, TypeScript, Vite
-*   **Styling:** Tailwind CSS, Lucide Icons
-*   **AI:** Google GenAI SDK (`@google/genai`)
+*   **Frontend:** [React 19](https://react.dev/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/)
+*   **AI Engine:** [Google GenAI SDK](https://www.npmjs.com/package/@google/genai) (`gemini-3-pro-preview`, `gemini-2.5-flash`)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/), Lucide React (Icons)
+*   **Visualization:** [Recharts](https://recharts.org/) (Analytics), Mermaid.js (Diagrams), KaTeX (Math)
 *   **State Management:** React Context API + `useReducer`
-*   **Data Persistence:** LocalStorage (Offline capability)
-*   **Visualization:** Recharts (Analytics), Mermaid.js (Diagrams), KaTeX (Math)
-*   **Audio:** Web Audio API (Synthesized sound effects)
+*   **Audio:** Web Audio API (Synthesized SFX), Web Speech API
 
 ---
 
-## 🚀 Getting Started
+## ⚡ Getting Started
 
 ### Prerequisites
 *   Node.js 18+
@@ -71,52 +71,40 @@
 
 ### Installation
 
-1.  **Clone the repository:**
+1.  **Clone the repository**
     ```bash
     git clone https://github.com/your-username/mentor-ai.git
     cd mentor-ai
     ```
 
-2.  **Install dependencies:**
+2.  **Install dependencies**
     ```bash
     npm install
     ```
 
-3.  **Environment Setup:**
+3.  **Configure Environment**
     Create a `.env` file in the root directory:
     ```env
     VITE_GEMINI_API_KEY=your_api_key_here
     ```
-    *(Alternatively, you can enter the API key directly in the App Settings UI)*
+    *(Note: You can also enter the API key directly in the app settings UI).*
 
-4.  **Run the development server:**
+4.  **Run Development Server**
     ```bash
     npm run dev
     ```
 
-5.  **Open in Browser:**
-    Navigate to `http://localhost:5173`
+5.  **Launch**
+    Open `http://localhost:5173` in your browser.
 
 ---
 
-## 💡 How It Works
+## 📖 Usage Guide
 
-1.  **Documents:** Go to the "Documents" tab. Upload a PDF lecture note. Click the 📌 icon to "Pin" it. Now, the Chat Agent has full context of that file.
-2.  **Tools:** Navigate to "Tools". Select "Flashcards", type "Quantum Physics", and watch Gemini generate a deck instantly.
-3.  **Chat:** Ask "Explain the concept of superposition from the pinned document." Notice the `<thinking>` block where the model plans its answer before speaking.
-4.  **Code:** Paste a buggy code snippet into the "Code Analyzer" tool to get a fix and optimization strategy.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+1.  **Contextual Learning:** Navigate to **Documents**, upload a lecture PDF, and click the 📌 (Pin) icon. Go to **Chat** and ask specific questions about the file.
+2.  **Active Recall:** Go to **Tools > Flashcards**, type a topic (e.g., "Organic Chemistry"), and let Gemini 2.5 Flash generate a deck instantly.
+3.  **Code Review:** Paste a buggy snippet into **Tools > Code Analyzer** to receive a bug report, optimization tips, and a quality rating out of 10.
+4.  **Test Yourself:** Open **Quiz Agent**, set a topic, and challenge yourself to reach an 80%+ score to trigger the celebration effects.
 
 ---
 
@@ -125,7 +113,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Muhammad Nameer Shah**
 
 *   **LinkedIn:** [www.linkedin.com/in/muhammad-nameer-shah](https://www.linkedin.com/in/muhammad-nameer-shah)
-*   **GitHub:** [@your-github-username](https://github.com/your-github-username)
+*   **GitHub:** [@nameer111](https://github.com/nameer111)
 
 ---
 
@@ -133,8 +121,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
----
-
+<br />
 <p align="center">
-  Built with ❤️ for the Google AI Studio Hackathon
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" width="100" alt="Gemini Logo" />
+  <br />
+  Built for the <strong>Google AI Studio Hackathon</strong>
 </p>
