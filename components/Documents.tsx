@@ -83,9 +83,11 @@ export const Documents: React.FC = () => {
     };
 
     const deleteDoc = (docId: string, e: React.MouseEvent) => {
+        e.preventDefault();
         e.stopPropagation();
-        if (confirm('Delete this document?')) {
+        if (window.confirm('Are you sure you want to delete this document permanently?')) {
             dispatch({ type: 'DELETE_DOCUMENT', payload: docId });
+            dispatch({ type: 'ADD_TOAST', payload: { id: Date.now().toString(), type: 'info', message: 'Document deleted' }});
         }
     };
 
@@ -144,6 +146,7 @@ export const Documents: React.FC = () => {
                                         <button 
                                             onClick={(e) => deleteDoc(doc.id, e)}
                                             className="p-2 rounded-lg text-slate-400 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-500 transition-colors"
+                                            title="Delete"
                                         >
                                             <Trash2 size={18} />
                                         </button>

@@ -26,7 +26,7 @@ export const Settings: React.FC = () => {
   };
 
   const handleClear = () => {
-      if(confirm("DANGER: Are you sure you want to delete ALL history and settings? This cannot be undone and the app will reload.")) {
+      if(window.confirm("DANGER: Are you sure you want to delete ALL history and settings? This cannot be undone and the app will reload.")) {
           try {
               // 1. Wipe Storage
               localStorage.removeItem('mentorai_v2');

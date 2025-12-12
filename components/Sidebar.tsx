@@ -89,11 +89,14 @@ export const Sidebar: React.FC = () => {
   };
 
   const handleDelete = (id: string) => {
-      // Must close menu first
+      // Close menu first, let React render the closed state, then trigger alert
       setContextMenu(null);
-      if (window.confirm("Are you sure you want to delete this session permanently?")) {
-          dispatch({ type: 'DELETE_SESSION', payload: id });
-      }
+      setTimeout(() => {
+          if (window.confirm("Are you sure you want to delete this session permanently?")) {
+              dispatch({ type: 'DELETE_SESSION', payload: id });
+              dispatch({ type: 'ADD_TOAST', payload: { id: Date.now().toString(), type: 'info', message: 'Session deleted' }});
+          }
+      }, 50);
   };
 
   return (
@@ -181,8 +184,8 @@ export const Sidebar: React.FC = () => {
                         <>
                             <span className="truncate flex-1">{session.title}</span>
                             
-                            {/* Inline Actions - Visible on Hover - Replaces clipped dropdown */}
-                            <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity ml-2">
+                            {/* Actions: Always visible if active, otherwise visible on hover */}
+                            <div className={`flex items-center gap-1 transition-opacity ml-2 ${state.activeSessionId === session.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}>
                                 <button 
                                     onClick={(e) => {
                                         e.preventDefault(); 
