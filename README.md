@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/1200x280/0f172a/3b82f6?text=MentorAI+-+Your+AI+Study+Assistant" alt="MentorAI Banner"/>
+  <img src="https://gemini.google.com/share/3b40a0f7bdc6" alt="MentorAI Banner"/>
 </p>
 
 <h1 align="center">🧠 MentorAI — The Gemini 3 Powered Study Assistant</h1>
