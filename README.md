@@ -1,105 +1,198 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" />
-</p>
+# 🧠 MentorAI
 
-<h1 align="center">🧠 MentorAI — The Gemini 3 Powered Study Assistant</h1>
+> **Winner** of the "Vibe Code with Gemini 3" Hackathon (Target Track)
 
-<p align="center">
-  <strong>Winner — Google AI Studio <em>Vibe Code with Gemini 3</em> Hackathon (Target Track)</strong>
-</p>
+<div align="center">
+  
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=black&style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript&logoColor=white&style=flat-square)
+![Gemini](https://img.shields.io/badge/AI-Gemini%203%20Pro-8E75B2?logo=google&logoColor=white&style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite&logoColor=white&style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Powered%20By-Google%20Gemini%203%20Pro-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Framework-React%2018-61dafb?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-</p>
+</div>
 
----
-
-## 🚀 Overview
-
-MentorAI is a production-grade, multimodal AI study assistant designed for students and professionals who want to deeply understand complex topics.  
-Powered by **Gemini 3 Pro**, MentorAI performs real-time reasoning, analyzes documents, and provides interactive study tools in a clean, modern SPA.
+**MentorAI** is a production-grade, multimodal AI study assistant designed to help students master complex topics. Powered by **Google Gemini 3 Pro**, it features real-time reasoning transparency, document analysis (RAG), and agentic study tools in a beautiful Glassmorphism UI.
 
 ---
 
-## ✨ Features
-
-### 🔍 **1. Multimodal Chat with Transparent Reasoning**
-- View Gemini 3 Pro’s real-time reasoning steps.
-- Upload diagrams, equations, notes, or slides.
-- Mermaid.js visualization for flowcharts and diagrams.
-
----
-
-### 📚 **2. Context-Aware RAG (PDFs, Images, Audio)**
-- Upload lecture slides, PDFs, or handwritten notes.
-- Upload audio lectures (.mp3) for AI analysis.
-- Pin documents to focus the AI’s context window.
+## 📑 Table of Contents
+- [✨ Key Features](#-key-features)
+- [🔥 Why This Project Stands Out](#-why-this-project-stands-out)
+- [📸 Screenshots](#-screenshots)
+- [🧩 Tech Stack](#-tech-stack)
+- [🛠️ Setup & Installation](#️-setup--installation)
+- [🚀 Usage](#-usage)
+- [💡 Future Roadmap](#-future-roadmap)
+- [📄 License](#-license)
 
 ---
 
-### 🛠️ **3. AI Power Tools**
-- **Code Analyzer:** Bug detection, optimization, refactoring suggestions.
-- **Flashcard Generator:** Creates structured, spaced-repetition flashcards.
-- **Smart Quiz Agent:** Adaptive questions + gamified effects.
+## ✨ Key Features
+
+### ⚡ Multimodal Chat with "Thinking" Visibility
+Unlike standard chatbots, MentorAI exposes Gemini 3 Pro's reasoning process.
+- **Deep Reasoning:** Click "View Reasoning" to see how the AI breaks down complex Math/Physics problems.
+- **Visual Learning:** Upload diagrams or lecture slides for instant analysis.
+- **Mermaid.js Integration:** Automatically converts explanations into visual flowcharts.
+
+### 📚 Context-Aware RAG
+- **Pin Documents:** Focus the AI's attention on specific files (PDFs, Notes).
+- **Audio Analysis:** Upload a lecture recording (.mp3) and ask questions about it.
+
+### 🛠️ Agentic Tools
+- **Code Analyzer:** Paste code to get bug reports, Big-O analysis, and refactoring tips.
+- **Flashcard Generator:** Generates 3D spaced-repetition cards in seconds (Gemini Flash).
+- **Gamified Quiz Agent:** Adaptive quizzes with confetti celebrations and sound effects.
 
 ---
 
-### 📊 **4. Intelligent Study Dashboard**
-- Mastery prediction and knowledge tracking.
-- Study streaks with animated visualizations.
-- Offline-friendly with LocalStorage sync.
+## 🔥 Why This Project Stands Out
+
+Most hackathon projects are simple wrappers. **MentorAI** is a full ecosystem:
+
+| Feature | Standard Chatbot | 🧠 MentorAI |
+| :--- | :---: | :---: |
+| **Reasoning** | Hidden / Black Box | **Transparent `<thinking>` Tags** |
+| **Documents** | Simple Text Paste | **RAG with Pinning & Audio Support** |
+| **Visuals** | Text Only | **Mermaid Diagrams & LaTeX Math** |
+| **Speed** | Single Model | **Hybrid Route (Pro for Logic, Flash for Tools)** |
 
 ---
 
-## 🧩 Architecture
+## 📸 Screenshots
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React 18, TypeScript, Tailwind CSS, Vite |
-| **AI Models** | Gemini 3 Pro (reasoning) • Gemini 2.5 Flash (quizzes, JSON) |
-| **AI SDK** | Google GenAI SDK (`@google/generative-ai`) |
-| **State** | React Context API + LocalStorage |
-| **UI & Animation** | Framer Motion, Recharts, Lucide Icons |
+### Main Chat Interface
+<div align="center">
+  <img src="screenshots/chat-dark.png" alt="Chat Interface - Dark Mode" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
+  <p><em>Dark mode interface with multimodal chat capabilities</em></p>
+</div>
+
+<div align="center">
+  <img src="screenshots/chat-light.png" alt="Chat Interface - Light Mode" width="100%" style="border-radius: 10px;">
+  <p><em>Light mode for comfortable daytime studying</em></p>
+</div>
+
+### Key Features in Action
+- **Reasoning Transparency:** View how AI thinks through problems
+- **Document Upload:** Support for PDFs, images, and audio files
+- **Quick Actions:** Pre-built prompts for common study tasks
+- **Smooth Animations:** Framer Motion powered interactions
 
 ---
 
-## 🛠️ Installation
+## 🧩 Tech Stack
 
-### 1️⃣ Clone the Repository
+```mermaid
+graph TD
+    A[User Client] -->|React 18 + Vite| B(Frontend UI)
+    B -->|Streaming| C{Gemini Service}
+    C -->|Complex Logic| D[Gemini 3 Pro]
+    C -->|Fast JSON| E[Gemini 2.5 Flash]
+    B -->|State| F[Context API]
+    F -->|Persistence| G[LocalStorage]
+    B -->|Visuals| H[Recharts & Mermaid]
+```
+
+**Frontend:** React 18, TypeScript, Tailwind CSS
+
+**AI Core:** Google GenAI SDK (`@google/genai`)
+
+**State Management:** React Context API + LocalStorage
+
+**Visualization:** Framer Motion, Recharts, Mermaid.js
+
+---
+
+## 🛠️ Setup & Installation
+
+### Prerequisites
+- Node.js 18+ and npm/yarn
+- A Google AI Studio API key ([Get one here](https://makersuite.google.com/app/apikey))
+
+### 1. Clone the Repository
+
 ```bash
-git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
+git clone https://github.com/nameershah/MentorAI.git
 cd MentorAI
-2️⃣ Install Dependencies
-Bash
+```
 
+### 2. Install Dependencies
+
+```bash
 npm install
-3️⃣ Environment Variables
-Create a .env file with:
+```
 
-Ini, TOML
+### 3. Set Environment Variables
 
+Create a `.env` file in the root directory:
+
+```env
 VITE_GEMINI_API_KEY=your_api_key_here
-4️⃣ Run Dev Server
-Bash
+```
 
+### 4. Run Development Server
+
+```bash
 npm run dev
-🧪 Example Prompts to Try
-Math
-Plaintext
+```
 
-Solve this integral:
-∫ x² sin(x) dx
-Visual Concept
-Plaintext
+The app will be available at `http://localhost:5173`
 
-Explain how a CPU works with a diagram.
-Logic / Reasoning
-Plaintext
+### 5. Build for Production
 
-You have a 3L jug and a 5L jug. How can you measure exactly 4L?
-<br />
+```bash
+npm run build
+npm run preview
+```
 
-<p align="center"> <sub>Built with ❤️ for the Google AI Studio Hackathon. Engineered by Muhammad Nameer Shah.</sub> </p>
+---
+
+## 🚀 Usage
+
+### Getting Started
+1. **Start a New Session:** Click the "+" icon in the sidebar
+2. **Upload Documents:** Use the folder icon to attach PDFs, images, or audio
+3. **Ask Questions:** Type your query or use quick action buttons
+4. **View Reasoning:** Click "View Reasoning" on any AI response to see the thinking process
+
+### Tips for Best Results
+- **Be Specific:** The more context you provide, the better the answers
+- **Use Multimodal Input:** Combine text with images for visual problems
+- **Pin Important Documents:** Use the pin feature to keep context across multiple questions
+- **Try Different Tools:** Explore the Code Analyzer, Flashcard Generator, and Quiz Agent
+
+---
+
+## 💡 Future Roadmap
+
+- [ ] Mobile app version (React Native)
+- [ ] Collaborative study sessions
+- [ ] Advanced analytics dashboard
+- [ ] Integration with popular note-taking apps
+- [ ] Offline mode with cached responses
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ for the Google AI Studio Hackathon
+- Powered by Google Gemini 3 Pro
+- UI inspired by modern glassmorphism design trends
+
+---
+
+<div align="center">
+  <p><strong>Engineered by Muhammad Nameer Shah</strong></p>
+  <p>
+    <a href="https://github.com/nameershah">GitHub</a> •
+    <a href="https://linkedin.com/in/nameershah">LinkedIn</a>
+  </p>
+</div>
