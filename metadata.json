@@ -1,5 +1,5 @@
 {
-  "name": "Copy of MentorAI",
+  "name": "MentorAI",
   "description": "A high-end AI Study Assistant featuring voice interaction, document analysis, and 3D flashcards.",
   "requestFramePermissions": [
     "microphone"

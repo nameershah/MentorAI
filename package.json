@@ -1,5 +1,5 @@
 {
-  "name": "copy-of-mentorai",
+  "name": "mentorai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
     "@google/genai": "^1.33.0",
     "react-router-dom": "^7.10.1",
     "recharts": "^3.5.1",
-    "canvas-confetti": "1.9.2"
+    "canvas-confetti": "1.9.2",
+    "marked": "12.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
