@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" style="border-radius: 10px;" />
-</div>
-
 <br />
 
 <div align="center">
@@ -57,14 +53,16 @@
 <td width="50%">
 
 ### 🌙 Dark Mode Interface
-![MentorAI Dark Mode](./screenshots/chat-dark.png)
+![MentorAI Dark Mode](<img width="1440" height="619" alt="Screenshot 2025-12-12 at 3 12 01 PM" src="https://github.com/user-attachments/assets/a7a07860-2650-4c58-a4cd-60767e3e15a5" />
+)
 *Glassmorphism UI with multimodal chat capabilities*
 
 </td>
 <td width="50%">
 
 ### ☀️ Light Mode Interface
-![MentorAI Light Mode](./screenshots/chat-light.png)
+![MentorAI Light Mode](<img width="1440" height="619" alt="Screenshot 2025-12-12 at 3 11 52 PM" src="https://github.com/user-attachments/assets/063e98e1-90b7-4e22-adfc-3ebef66c7cdd" />
+)
 *Clean, comfortable interface for daytime studying*
 
 </td>
