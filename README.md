@@ -3,7 +3,7 @@
 > **Winner** of the "Vibe Code with Gemini 3" Hackathon (Target Track)
 
 <div align="center">
-  <img src="[https://via.placeholder.com/1200x400/0f172a/3b82f6?text=MentorAI+Powered+by+Gemini+3](https://via.placeholder.com/1200x400/0f172a/3b82f6?text=MentorAI+Powered+by+Gemini+3)" alt="MentorAI Banner" width="100%" />
+  <img src="https://via.placeholder.com/1200x400/0f172a/3b82f6?text=MentorAI+Powered+by+Gemini+3" alt="MentorAI Banner" width="100%" />
 </div>
 
 <br />
@@ -103,7 +103,7 @@ Visualization: Framer Motion, Recharts, Mermaid.js
 
 Bash
 
-git clone https://github.com/nameershah/MentorAI.git
+git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
 cd MentorAI
 2. Install Dependencies
 
