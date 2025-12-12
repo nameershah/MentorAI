@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" />
-" alt="MentorAI Banner"/>
+  <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" />
 </p>
 
 <h1 align="center">🧠 MentorAI — The Gemini 3 Powered Study Assistant</h1>
