@@ -74,7 +74,7 @@ Whether you are solving complex calculus problems, debugging code, or memorizing
     ```env
     VITE_GEMINI_API_KEY=your_api_key_here
     ```
-    *(Note: You can also enter the API key directly in the app settings UI).*
+    
 
 4.  **Run Development Server**
     ```bash
