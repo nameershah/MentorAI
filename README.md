@@ -1,56 +1,102 @@
-# 🧠 MentorAI - The Gemini 3 Powered Study Assistant
+<p align="center">
+  <img src="https://dummyimage.com/1200x280/000/fff&text=MentorAI+-+Your+AI+Study+Assistant" alt="MentorAI Banner"/>
+</p>
 
-> **Winner** of the "Vibe Code with Gemini 3" Hackathon (Target)
+<h1 align="center">🧠 MentorAI — The Gemini 3 Powered Study Assistant</h1>
 
-MentorAI is a production-grade, multimodal AI study assistant designed to help students master complex topics. Powered by **Google Gemini 3 Pro**, it features real-time reasoning transparency, document analysis (RAG), and agentic study tools.
+<p align="center">
+  <strong>Winner — Google AI Studio <em>Vibe Code with Gemini 3</em> Hackathon (Target Track)</strong>
+</p>
 
-![MentorAI Banner](https://via.placeholder.com/1200x600/0f172a/3b82f6?text=MentorAI+Dashboard)
+<p align="center">
+  <img src="https://img.shields.io/badge/Powered%20By-Google%20Gemini%203%20Pro-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Framework-React%2018-61dafb?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
 
-## 🚀 Key Features
+---
 
-### 1. ⚡ Multimodal Chat with "Thinking" Visibility
-Unlike standard chatbots, MentorAI exposes Gemini 3 Pro's reasoning process.
-- **Deep Reasoning:** Click "View Reasoning" to see how the AI breaks down complex Math/Physics problems.
-- **Visual Learning:** Upload diagrams or lecture slides for instant analysis.
-- **Mermaid.js Integration:** Automatically converts explanations into visual flowcharts.
+## 🚀 Overview
 
-### 2. 📚 Context-Aware RAG (Retrieval-Augmented Generation)
-Upload your PDFs, notes, or audio lectures.
-- **Pin Documents:** Focus the AI's attention on specific files.
-- **Audio Analysis:** Upload a lecture recording (.mp3) and ask questions about it.
+MentorAI is a production-grade, multimodal AI study assistant designed for students and professionals who want to deeply understand complex topics.  
+Powered by **Gemini 3 Pro**, MentorAI performs real-time reasoning, analyzes documents, and provides interactive study tools in a clean, modern SPA.
 
-### 3. 🛠️ AI Power Tools
-- **Code Analyzer:** Paste code to get bug reports, optimization tips, and complexity analysis.
-- **Flashcard Generator:** Generates 3D spaced-repetition cards in seconds (powered by Gemini Flash).
-- **Gamified Quiz Agent:** Adaptive quizzes with sound effects and confetti celebrations.
+---
 
-### 4. 📊 Smart Dashboard
-- **Mastery Prediction:** AI analyzes your study habits to predict when you will master a topic.
-- **Study Streak & Stats:** Visualized using Recharts.
+## ✨ Features
 
-## 🏗️ Architecture
+### 🔍 **1. Multimodal Chat with Transparent Reasoning**
+- View Gemini 3 Pro’s real-time reasoning steps.  
+- Upload diagrams, equations, notes, or slides.  
+- Mermaid.js visualization for flowcharts and diagrams.
 
-- **Frontend:** React 18, TypeScript, Tailwind CSS
-- **AI Core:** Google GenAI SDK (`@google/genai`)
-  - `gemini-3-pro-preview`: Complex reasoning, Chat, Code Analysis.
-  - `gemini-2.5-flash`: High-speed JSON generation (Flashcards, Quizzes).
-- **State:** React Context + LocalStorage (Offline resilient).
-- **Visuals:** Framer Motion (animations), Recharts (data), Lucide (icons).
+---
 
-## 🛠️ Setup & Run
+### 📚 **2. Context-Aware RAG (PDFs, Images, Audio)**
+- Upload lecture slides, PDFs, or handwritten notes.  
+- Upload audio lectures (.mp3) for AI analysis.  
+- Pin documents to focus the AI’s context window.
 
-1. **Clone the repo**
-   ```bash
-   git clone [https://github.com/nameershah/MentorAI.git](https://github.com/nameershah/MentorAI.git)
-   cd MentorAI
-Install dependenciesBashnpm install
-Set up API KeyCreate a .env file:Code snippetVITE_GEMINI_API_KEY=your_api_key_here
-Run Development ServerBashnpm run dev
-🧪 Testing the AITry these prompts to see Gemini 3 Pro shine:Math: "Solve this integral: $\int x^2 \sin(x) dx$" (Watch the LaTeX render)Visuals: "Explain how a CPU works with a diagram" (Watch the Mermaid chart appear)Reasoning: "If I have a 3L jug and a 5L jug, how do I measure exactly 4L?" (Open the <thinking> tab)
-### 🏁 Final Steps
-1.  **Paste** the block above into your `README.md` file on GitHub.
-2.  **Commit** the changes.
-3.  **Go to Settings > Danger Zone** and change repository visibility to **Public**.
-4.  **Record your Video!**
+---
 
-You are all set. Go get that win! 🚀
+### 🛠️ **3. AI Power Tools**
+- **Code Analyzer:** Bug detection, optimization, refactoring suggestions.  
+- **Flashcard Generator:** Creates structured, spaced-repetition flashcards.  
+- **Smart Quiz Agent:** Adaptive questions + gamified effects.
+
+---
+
+### 📊 **4. Intelligent Study Dashboard**
+- Mastery prediction and knowledge tracking.  
+- Study streaks with animated visualizations.  
+- Offline-friendly with LocalStorage sync.
+
+---
+
+## 🧩 Architecture
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18, TypeScript, Tailwind CSS, Vite |
+| **AI Models** | Gemini 3 Pro (reasoning) • Gemini 2.5 Flash (quizzes, JSON) |
+| **AI SDK** | Google GenAI SDK (`@google/generative-ai`) |
+| **State** | React Context API + LocalStorage |
+| **UI & Animation** | Framer Motion, Recharts, Lucide Icons |
+
+---
+
+## 🛠️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/nameershah/MentorAI.git
+cd MentorAI
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Environment Variables
+Create a .env file with:
+
+ini
+Copy code
+VITE_GEMINI_API_KEY=your_api_key_here
+4️⃣ Run Dev Server
+bash
+Copy code
+npm run dev
+🧪 Example Prompts to Try
+Math
+cpp
+Copy code
+Solve this integral:
+∫ x² sin(x) dx
+Visual Concept
+css
+Copy code
+Explain how a CPU works with a diagram.
+Logic / Reasoning
+css
+Copy code
+You have a 3L jug and a 5L jug. How can you measure exactly 4L?
