@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0110c607-cccc-451e-a553-771ea18dc4ae" alt="MentorAI Banner" width="100%" style="border-radius: 10px;" />
 </div>
